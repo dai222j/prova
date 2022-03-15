@@ -1,0 +1,95 @@
+body {
+        background-image: url("fundo5.jpg" );
+        background-repeat: no-repeat;
+        background-size: 100% ;
+        background-position: center center;
+    }
+
+    .nav {  
+        z-index: 1;
+        top: 0;
+        margin-left: 8%;
+        width: 50%;
+        margin-top: -1.5%;
+    }
+    .dropdown-conteudo {
+        position: absolute;
+        background-color: #00c54c71;
+        height: min-content;
+        width: 25%;
+        text-align: center;
+        border-radius: 2%;
+        margin-left: -7%;
+    }
+    .dropdown-conteudo a {
+        font-family: "cursive";
+        font-size: 16px;
+        color: black;
+        padding: 16px 16px;
+        display: block;
+        text-decoration: none;
+        height: 10px;
+        font-weight: bold;
+    }
+    
+    .dropdown-conteudo a:hover {
+        background-color: #0089d89d;
+    }
+    
+    .dropdown:hover .dropdown-conteudo {
+        display: block;
+        margin-bottom: 10%;
+    }
+    .container {
+         position: relative;
+         height: auto;
+         width: 40%;
+         margin: 0 0 0 28%;
+         padding: 6% 4%;
+         background: rgba(6, 201, 250, 0.233);
+         border: none;
+         border-radius: 1%;
+         border-bottom: 0.1px solid rgb(0, 92, 231);
+         -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+         -webkit-box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);
+         box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.5);
+    }
+
+    .inp{
+        display: block;
+        margin: 0 0 3% 6%;
+        padding: 15px;
+        width: 82%;
+        border: 0.5px solid rgb(0, 228, 217);
+        border-radius: 2.5px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    
+    .inp:hover {
+        background-color: rgb(223, 251, 255);
+        border: 0.5px solid #000000;
+    }
+
+    .btn {
+        position: relative;
+        margin: 0 0 4% 25%;
+        width: 40%;
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 14px;
+        border: none;
+        border-radius: 2.5px;
+        transition: 1s all;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        border: 1px solid #0d8bc598;
+        background-color: #0d8bc598;
+    }
+    .sobre {
+        padding: 180px;
+    }
+
+    footer {
+        padding: 10px;
+    }
